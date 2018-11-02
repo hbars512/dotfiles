@@ -11,12 +11,12 @@ Tenemos los archivos `~/.vimrc`, `~/.bashrc` y `~/.tmux.conf` que configuran
 los programas [Vim], [Bash] y [Tmux] respectivamente.
 
 La Instalación requiere [Git] para usar el comando [`git clone`] para copiar el
-repositorio a `~/configuracion`.
+repositorio a `~/.bvtconfig`.
 
    ```shell
    cd ~
-   git clone https://github.com/xguestone/dotfiles.git ~/configuracion`
-   cd configuracion
+   git clone https://github.com/xguestone/dotfiles.git ~/.bvtconfig`
+   cd .bvtconfig
    ./install.sh`
    ```
 
