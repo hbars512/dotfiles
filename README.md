@@ -13,11 +13,12 @@ los programas [Vim], [Bash] y [Tmux] respectivamente.
 La Instalación requiere [Git] para usar el comando [`git clone`] para copiar el
 repositorio a `~/configuracion`.
 
-   `git clone https://github.com/xguestone/dotfiles.git ~/configuracion`
-
-Luego de la descarga ingresar a la carpeta creada `~/configuracion` e instalar usando:
-
-   `./install.sh`
+   ```shell
+   cd ~
+   git clone https://github.com/xguestone/dotfiles.git ~/configuracion`
+   cd configuracion
+   ./install.sh`
+   ```
 
 Lo que hace `install.sh` es verificar si hay `~/.vimrc`, `~/.bashrc` y
 `~/.tmux.conf`. Si ya hay archivos creados lo que hace es guardarlos con la
