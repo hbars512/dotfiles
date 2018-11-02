@@ -5,8 +5,7 @@ Archivos de configuración personal de [Vim], [Bash] y [Tmux]
 
 Los Dotfiles _los archivos que empiezan por un punto_ sirven para configurar
 ciertos programas y características en una sesión de usuario en
-[GNU-Linux]. Se encuentran en
-nuestra HOME.
+[GNU-Linux]. Se encuentran en nuestra HOME.
 
 Tenemos los archivos `~/.vimrc`, `~/.bashrc` y `~/.tmux.conf` que configuran
 los programas [Vim], [Bash] y [Tmux] respectivamente.
