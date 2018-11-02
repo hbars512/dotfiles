@@ -33,7 +33,7 @@ echo '- vimrc actualizado'
 # Copiando .bashrc
 echo '* Actualizando bashrc...'
 cd ~
-if [ -f .bash ];
+if [ -f .bashrc ];
 then
    mv .bashrc .bashrc.bak
 fi
