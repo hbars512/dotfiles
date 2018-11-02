@@ -15,9 +15,9 @@ repositorio a `~/.bvtconfig`.
 
    ```shell
    cd ~
-   git clone https://github.com/xguestone/dotfiles.git ~/.bvtconfig`
+   git clone https://github.com/xguestone/dotfiles.git ~/.bvtconfig
    cd .bvtconfig
-   ./install.sh`
+   ./install.sh
    ```
 
 Lo que hace `install.sh` es verificar si hay `~/.vimrc`, `~/.bashrc` y
