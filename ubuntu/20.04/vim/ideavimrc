@@ -1,0 +1,48 @@
+" remap arrow keys
+nnoremap <up> :tabnext<CR>
+nnoremap <down> :tabprev<CR>
+nnoremap <left> :tabprev<CR>
+nnoremap <right> :tabnext<CR>
+
+" map leader
+let mapleader = ","
+let g:mapleader = ","
+
+" change cursor position in insert mode
+inoremap <C-h> <left>
+inoremap <C-l> <right>
+
+" sane regex
+nnoremap / /\v
+vnoremap / /\v
+nnoremap ? ?\v
+vnoremap ? ?\v
+nnoremap :s/ :s/\v
+
+" smash escape
+inoremap jk <esc>
+inoremap kj <esc>
+
+" reselect visual block after indent
+vnoremap < <gv
+vnoremap > >gv
+
+" tab shortcuts
+map <leader>tn :tabnew<CR>
+map <leader>tc :tabclose<CR>
+
+" make Y consistent with C and D. See :help Y.
+nnoremap Y y$
+
+" quick buffer open
+nnoremap gb :ls<cr>:e #
+
+" shortcuts for windows
+nnoremap <leader>s <C-w>v
+nnoremap <leader>vsa :vert sba<cr>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+Plug 'tpope/vim-commentary'
